@@ -24,7 +24,7 @@ class Compiler(val instructions: MutableList<String> = ArrayList()) {
                                 TokenType.SUB -> leftConst.toDouble() - rightConst.toDouble()
                                 TokenType.MUL -> leftConst.toDouble() * rightConst.toDouble()
                                 TokenType.DIV -> leftConst.toDouble() / rightConst.toDouble()
-                                else -> throw IllegalStateException("Should not happen!")
+                                else -> throw IllegalStateException("unknown error!")
                             }
                             NumberNode(Token(TokenType.NUMBER, result.toString(), node.op.index, node.op.line, node.op.column))
                         }
