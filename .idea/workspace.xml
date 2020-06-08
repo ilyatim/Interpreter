@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a6dc4ab-790e-45f5-9886-40f5f8031645" name="Default Changelist" comment="" />
+    <list default="true" id="7a6dc4ab-790e-45f5-9886-40f5f8031645" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/COFFDump.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testfile.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testfile.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e75949ba98ff0ad8ab6e4f9e0d3875cc7a0b493" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e75949ba98ff0ad8ab6e4f9e0d3875cc7a0b493" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/StmtNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/VariableNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/collector/Compiler$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/collector/Compiler$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/collector/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/collector/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test$testCompiler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test$testCompiler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test$testInterpreter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test$testInterpreter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +25,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cff0CmMAYxYldUVFMAGr9SS6p0" />
   <component name="ProjectViewState">
@@ -40,7 +59,7 @@
       <recent name="C:\IlyaFolder\GitHub\Projects\Interpretor\src\data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.testInterpreter">
+  <component name="RunManager" selected="JUnit.Test.testObj">
     <configuration name="Test.testCompiler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Interpreter" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,55 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="Test.testObj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Interpreter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Interpreter" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="testObj" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.testObj" />
         <item itemvalue="JUnit.Test.testInterpreter" />
         <item itemvalue="JUnit.Test.testCompiler" />
       </list>
@@ -138,6 +121,9 @@
       <option name="presentableId" value="Default" />
       <updated>1590924342835</updated>
       <workItem from="1590924345931" duration="16111000" />
+      <workItem from="1591603371722" duration="5196000" />
+      <workItem from="1591608605242" duration="112000" />
+      <workItem from="1591608730088" duration="499000" />
     </task>
     <servers />
   </component>
@@ -145,6 +131,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Plugins" timestamp="1591608715428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1591608715428" />
+    <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591608535892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591608535892" />
     <state x="590" y="210" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590935650012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -153,25 +147,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="173" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590925612043" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590942240335">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591608971705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590942240335" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590942240335">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591608971705" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591608971705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590942240335" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590942240335">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591608971705" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591608971705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590942240335" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590942240335">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591608971705" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591608971705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590942240335" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591608971705" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1590935526073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590935526073" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1591608918691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591608918691" />
   </component>
 </project>
