@@ -64,3 +64,10 @@ class Test {
 
     }
 }
+
+class LeetCode {
+    @Test
+    fun test() {
+        print(2 % 10)
+    }
+}
